@@ -31,10 +31,8 @@ function Header() {
       </div>
       <div className="flex justify-center flex-grow  cursor-pointer">
         <div className="flex space-x-6 md:space-x-7 cursor-pointer lg:inline-flex  ">
-          <Link href="/"><a>< HeaderIcon active Icon = {HomeIcon} className="icon" /></a></Link>
-          <Link href="/about"><a><HeaderIcon active Icon = {InfoIcon} className="icon" /></a></Link>
-         <Link href="/services"><a><HeaderIcon active Icon = {CircleNotificationsIcon} className="icon" /></a></Link>
-          <Link href="/contact"><a><HeaderIcon active Icon ={ ContactMailIcon} className="icon" /></a></Link>
+      
+        
            
         </div>
       </div>
