@@ -29,8 +29,7 @@ import {
   
     return (
       <div className="p-2  mt-5 max-w-[300px] xl:min-w-[200px]">
-       <Link href="/covid"><a><SidebarRow Icon = {LocalHospitalIcon} title="COVID-19 Information Center"/></a></Link>
-        <Link href = "https://echat-71faf.web.app/JIT"><a><SidebarRow Icon={AccountBalanceIcon} title="JU" /></a></Link>
+   
         <SidebarRow Icon={ImportContactsTwoToneIcon} title="Department" />
         <SidebarRow Icon={CollectionsBookmarkIcon} title="Courses" />
         <SidebarRow Icon={EmojiEventsIcon} title="Memories" />
